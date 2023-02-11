@@ -3,7 +3,7 @@ const coinTitle = document.querySelector('.coin-title');
 
 export function createListCoin(name, value) {
   const coinElement = document.createElement('li');
-  coinElement.innerHTML = `${name} <span class="yellow">${value}</span>`;
+  coinElement.innerHTML = `🪙${name} <span class="yellow">${value}</span>`;
   return coinElement;
 }
 

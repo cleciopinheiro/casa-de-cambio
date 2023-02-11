@@ -23,9 +23,7 @@ h1 {
 
 .yellow {
   color: yellow;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  font-size: 14px;
 }
 
 header,
@@ -115,8 +113,8 @@ li {
   height: 40px;
   background: rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
