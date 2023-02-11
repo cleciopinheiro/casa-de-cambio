@@ -21,6 +21,13 @@ h1 {
   color: #95EBA8;
 }
 
+.yellow {
+  color: yellow;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
 header,
 main {
   display: flex;
@@ -110,10 +117,6 @@ li {
   border-radius: 5px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   color: white;
-}
-
-h2 {
-
 }
